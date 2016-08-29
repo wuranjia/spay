@@ -1,12 +1,13 @@
+rootProject.name = 'spay'
 /***********************基础服务***************************/
-include "base_core"//base核心类-包含http请求等基类
-include "base_file"//base文件相关类
-include "base_util"//base工具相关类
+include ":base_core"//base核心类-包含http请求等基类
+include ":base_file"//base文件相关类
+include ":base_util"//base工具相关类
 /***********************业务服务***************************/
-include "user_app"//业务拆分-user
-include "dpm_app"//业务拆分-dpm
-include "trading-app"//业务拆分-trading
-include "cmf-app"//业务拆分-cmf
+include ":user_app"//业务拆分-user
+include ":dpm_app"//业务拆分-dpm
+include ":trading_app"//业务拆分-trading
+include ":cmf_app"//业务拆分-cmf
 /***********************前端服务***************************/
 
 

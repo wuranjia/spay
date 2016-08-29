@@ -23,3 +23,11 @@ bin/
 .download/*
 
 /build/
+/base_core/build/
+/base_file/build/
+/base_util/build/
+/cmf_app/build/
+/dpm_app/build/
+/trading_app/build/
+/user_app/build/
+

@@ -1,0 +1,4 @@
+dependencies {
+    compile project(':base_core')
+    compile project(':base_util')
+}
