@@ -1,7 +1,7 @@
 package com.wrj.spay.util;
 
 
-import com.lufax.mof.exception.BizRuntimeException;
+import com.wrj.spay.exception.BizRuntimeException;
 import org.apache.commons.collections.CollectionUtils;
 
 import java.util.List;
